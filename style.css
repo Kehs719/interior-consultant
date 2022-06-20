@@ -92,7 +92,7 @@ nav{
     position:absolute;
     bottom:0;
     right:4.3%;
-    bottom:-20%;
+    bottom:-4rem;
 }
 .flexbox{
     display: flex;
