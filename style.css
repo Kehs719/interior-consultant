@@ -92,7 +92,7 @@ nav{
     position:absolute;
     bottom:0;
     right:4.3%;
-    bottom:-4rem;
+    bottom:-2.5rem;
 }
 .flexbox{
     display: flex;
@@ -115,6 +115,7 @@ nav{
 }
 .card h2{
     font-family: var(--ff-1);
+    margin-top: 30px;
 }
 footer{
     margin-top:7rem;
