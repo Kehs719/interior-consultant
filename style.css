@@ -27,7 +27,20 @@ nav{
     justify-content: space-between;
     align-items: center;
 } 
-.nav-list{
+.responsive-nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: black;
+    z-index: 2;
+    color: #ffffff;
+    pointer-events: none;
+    opacity:0;
+}
+.nav-list-open{
+    display: block;
     display:flex;
     flex-direction: row;
     align-items: center;
@@ -150,19 +163,8 @@ footer p {
     body{
         padding:3.2vw 2.4vh;
     }
-    .responsive-nav{
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100vh;
-        background: black;
-        z-index: 2;
-        color: #ffffff;
-        pointer-events: none;
-        opacity:0;
-    }
-    .nav-list{
+    
+    .nav-list-closed{
         width:100%;
         height:100%;
         display:flex;
@@ -170,6 +172,9 @@ footer p {
         text-align: center;
         flex-direction: column;
         font-size: 2.31vh ;
+    }
+    .nav-list-open{
+        display: none;
     }
     .nav-list-item{
         padding-top: 4.1vh;
