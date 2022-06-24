@@ -181,6 +181,7 @@ footer p {
     }
     .nav-list-item{
         padding-top: 4.1vh;
+        width:10vw;
     }
     .open-nav{
         display: block;
