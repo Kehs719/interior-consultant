@@ -22,6 +22,9 @@ body{
     color:var(--text-color);
     font-family: var(--ff-2);
 }
+ul{
+   list-style: none;
+}
 nav{
     display:flex;
     justify-content: space-between;
