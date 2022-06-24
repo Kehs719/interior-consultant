@@ -168,11 +168,11 @@ footer p {
     }
     
     .nav-list-closed{
-        width:100%;
-        height:100%;
-        display:flex;
+        width: 100%;
+        display: flex;
         justify-content: center;
         text-align: center;
+        align-items: center;
         flex-direction: column;
         font-size: 2.31vh ;
     }
